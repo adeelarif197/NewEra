@@ -13,6 +13,8 @@ target 'NewEra' do
   )
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod 'GoogleSignIn', '~> 6.0.2'
+  pod 'Firebase/Analytics'
 
   target 'NewEraTests' do
     inherit! :complete
