@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import { Text, View ,StyleSheet,SafeAreaView} from 'react-native'
 
 export default class SignUp extends Component {
     render() {
         return (
-            <View>
+            <SafeAreaView>
                 <Text> SIGNUP </Text>
-            </View>
+            </SafeAreaView>
         )
     }
 }
+const styles = StyleSheet.create({
+	LogoMain:{
+
+    }
+})

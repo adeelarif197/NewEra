@@ -9,25 +9,37 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* NewEraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NewEraTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		73777257458547AC8CA28725 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E237E3689D4453BB41102A /* AntDesign.ttf */; };
-		87487500CCB5473CAA459625 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 804520DFA4F44D20A34F592B /* Entypo.ttf */; };
-		F4234C87DCE8477A8D9E15B1 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F512C5EBB848C2A301373D /* EvilIcons.ttf */; };
-		CEE4C542DE4E484E8C417EA3 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35A60366F05448AC81C36AA9 /* Feather.ttf */; };
-		255F85717DDF4626A8FBDEEC /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D59AD4DA8D114DA58B2E7DBB /* FontAwesome.ttf */; };
-		A4AD255F3352483B9BF370F6 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E0D3804C442458689416364 /* FontAwesome5_Brands.ttf */; };
-		636DEEA8E0394AEDA902DF72 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE5E2BF216E4D27A3EFB363 /* FontAwesome5_Regular.ttf */; };
-		1ADFBA608A8948BCAA4A866D /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97DFFFFCDAA148E89E4C7FE5 /* FontAwesome5_Solid.ttf */; };
-		A1840AB867004463A2FFA513 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 485C777E7F8E4A65BCB118BF /* Fontisto.ttf */; };
-		A620370B29C14E34A63C1B0D /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B15BA1888554F4E911FD534 /* Foundation.ttf */; };
-		FA83DF6E7ABE4B1C954F59BC /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBA600AAF5294866A3AF8E48 /* Ionicons.ttf */; };
-		510288C6F14F469BBC3091D5 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4FE4AA2E56B4465B0DC6DE3 /* MaterialCommunityIcons.ttf */; };
-		C7F88865CC9F475490A8B00D /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7A517BF7C2C4551A963BA3C /* MaterialIcons.ttf */; };
-		14C381EAC51D44BAB889C297 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094FD14065B449F29CE1B9C6 /* Octicons.ttf */; };
-		C6BB81A1C62343C9B15833B4 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C147EA12445843A881BE9F42 /* SimpleLineIcons.ttf */; };
-		E7B375FC63874882A72A11D3 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F95627679DD542B6A8DAFD5B /* Zocial.ttf */; };
+		45BCBC62279B07A500BDA7F3 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 45BCBC61279B07A500BDA7F3 /* GoogleService-Info (1).plist */; };
+		45BCBC65279B412F00BDA7F3 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC64279B412F00BDA7F3 /* FirebaseAppDistribution-Beta */; };
+		45BCBC67279B412F00BDA7F3 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC66279B412F00BDA7F3 /* FirebaseInAppMessaging-Beta */; };
+		45BCBC69279B412F00BDA7F3 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC68279B412F00BDA7F3 /* FirebaseAnalyticsSwift-Beta */; };
+		45BCBC6B279B412F00BDA7F3 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC6A279B412F00BDA7F3 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		45BCBC6D279B412F00BDA7F3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC6C279B412F00BDA7F3 /* FirebaseFirestore */; };
+		45BCBC6F279B412F00BDA7F3 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC6E279B412F00BDA7F3 /* FirebaseAuthCombine-Community */; };
+		45BCBC71279B412F00BDA7F3 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC70279B412F00BDA7F3 /* FirebaseInstallations */; };
+		45BCBC73279B412F00BDA7F3 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC72279B412F00BDA7F3 /* FirebaseFunctionsCombine-Community */; };
+		45BCBC75279B412F00BDA7F3 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC74279B412F00BDA7F3 /* FirebaseFirestoreSwift-Beta */; };
+		45BCBC77279B412F00BDA7F3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC76279B412F00BDA7F3 /* FirebaseAnalytics */; };
+		45BCBC79279B412F00BDA7F3 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC78279B412F00BDA7F3 /* FirebasePerformance */; };
+		45BCBC7B279B412F00BDA7F3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC7A279B412F00BDA7F3 /* FirebaseDatabase */; };
+		45BCBC7D279B413000BDA7F3 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC7C279B413000BDA7F3 /* FirebaseStorageCombine-Community */; };
+		45BCBC7F279B413000BDA7F3 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC7E279B413000BDA7F3 /* FirebaseAppCheck */; };
+		45BCBC81279B413000BDA7F3 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC80279B413000BDA7F3 /* FirebaseStorageSwift-Beta */; };
+		45BCBC83279B413000BDA7F3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC82279B413000BDA7F3 /* FirebaseAuth */; };
+		45BCBC85279B413000BDA7F3 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC84279B413000BDA7F3 /* FirebaseInAppMessagingSwift-Beta */; };
+		45BCBC87279B413000BDA7F3 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC86279B413000BDA7F3 /* FirebaseRemoteConfig */; };
+		45BCBC89279B413000BDA7F3 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC88279B413000BDA7F3 /* FirebaseDatabaseSwift-Beta */; };
+		45BCBC8B279B413000BDA7F3 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC8A279B413000BDA7F3 /* FirebaseMLModelDownloader */; };
+		45BCBC8D279B413000BDA7F3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC8C279B413000BDA7F3 /* FirebaseMessaging */; };
+		45BCBC8F279B413000BDA7F3 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC8E279B413000BDA7F3 /* FirebaseCrashlytics */; };
+		45BCBC91279B413000BDA7F3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC90279B413000BDA7F3 /* FirebaseStorage */; };
+		45BCBC93279B413000BDA7F3 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC92279B413000BDA7F3 /* FirebaseDynamicLinks */; };
+		45BCBC95279B413000BDA7F3 /* FirebaseFunctionsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC94279B413000BDA7F3 /* FirebaseFunctionsSwift-Beta */; };
+		45BCBC97279B413000BDA7F3 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC96279B413000BDA7F3 /* FirebaseFunctions */; };
+		45BCBC99279B413000BDA7F3 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 45BCBC98279B413000BDA7F3 /* FirebaseFirestoreCombine-Community */; };
+		7A0DAB7AA270EF0C20F8EA64 /* libPods-NewEra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A60A8CBD2C80C40B61B857 /* libPods-NewEra.a */; };
+		B249EE8A3D84FCF8F7E55911 /* libPods-NewEra-NewEraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF62572C8BAF9BB78FC3B28E /* libPods-NewEra-NewEraTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,30 +56,37 @@
 		00E356EE1AD99517003FC87E /* NewEraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewEraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* NewEraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewEraTests.m; sourceTree = "<group>"; };
+		07CF257D96CD4CFB50D95D1B /* Pods-NewEra-NewEraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewEra-NewEraTests.release.xcconfig"; path = "Target Support Files/Pods-NewEra-NewEraTests/Pods-NewEra-NewEraTests.release.xcconfig"; sourceTree = "<group>"; };
+		094FD14065B449F29CE1B9C6 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		0FE5E2BF216E4D27A3EFB363 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* NewEra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewEra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NewEra/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NewEra/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NewEra/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NewEra/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NewEra/main.m; sourceTree = "<group>"; };
+		35A60366F05448AC81C36AA9 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		3E0D3804C442458689416364 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		45BCBC61279B07A500BDA7F3 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		485C777E7F8E4A65BCB118BF /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		69A60A8CBD2C80C40B61B857 /* libPods-NewEra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewEra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B15BA1888554F4E911FD534 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		804520DFA4F44D20A34F592B /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NewEra/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97A4585480C20E1AD8E3C591 /* Pods-NewEra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewEra.debug.xcconfig"; path = "Target Support Files/Pods-NewEra/Pods-NewEra.debug.xcconfig"; sourceTree = "<group>"; };
+		97DFFFFCDAA148E89E4C7FE5 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		B29C0924EAC62E0C12062B2F /* Pods-NewEra-NewEraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewEra-NewEraTests.debug.xcconfig"; path = "Target Support Files/Pods-NewEra-NewEraTests/Pods-NewEra-NewEraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4FE4AA2E56B4465B0DC6DE3 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		B7A517BF7C2C4551A963BA3C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		C147EA12445843A881BE9F42 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		CB9CC77FA99DBA06958F01B6 /* Pods-NewEra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewEra.release.xcconfig"; path = "Target Support Files/Pods-NewEra/Pods-NewEra.release.xcconfig"; sourceTree = "<group>"; };
+		D3E237E3689D4453BB41102A /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		D59AD4DA8D114DA58B2E7DBB /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		DBA600AAF5294866A3AF8E48 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		E0F512C5EBB848C2A301373D /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		D3E237E3689D4453BB41102A /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		804520DFA4F44D20A34F592B /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E0F512C5EBB848C2A301373D /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		35A60366F05448AC81C36AA9 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D59AD4DA8D114DA58B2E7DBB /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3E0D3804C442458689416364 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0FE5E2BF216E4D27A3EFB363 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		97DFFFFCDAA148E89E4C7FE5 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		485C777E7F8E4A65BCB118BF /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6B15BA1888554F4E911FD534 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DBA600AAF5294866A3AF8E48 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B4FE4AA2E56B4465B0DC6DE3 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B7A517BF7C2C4551A963BA3C /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		094FD14065B449F29CE1B9C6 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C147EA12445843A881BE9F42 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F95627679DD542B6A8DAFD5B /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F95627679DD542B6A8DAFD5B /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		FF62572C8BAF9BB78FC3B28E /* libPods-NewEra-NewEraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewEra-NewEraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B249EE8A3D84FCF8F7E55911 /* libPods-NewEra-NewEraTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +102,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BCBC7B279B412F00BDA7F3 /* FirebaseDatabase in Frameworks */,
+				45BCBC95279B413000BDA7F3 /* FirebaseFunctionsSwift-Beta in Frameworks */,
+				7A0DAB7AA270EF0C20F8EA64 /* libPods-NewEra.a in Frameworks */,
+				45BCBC83279B413000BDA7F3 /* FirebaseAuth in Frameworks */,
+				45BCBC6B279B412F00BDA7F3 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				45BCBC79279B412F00BDA7F3 /* FirebasePerformance in Frameworks */,
+				45BCBC91279B413000BDA7F3 /* FirebaseStorage in Frameworks */,
+				45BCBC73279B412F00BDA7F3 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				45BCBC8B279B413000BDA7F3 /* FirebaseMLModelDownloader in Frameworks */,
+				45BCBC81279B413000BDA7F3 /* FirebaseStorageSwift-Beta in Frameworks */,
+				45BCBC65279B412F00BDA7F3 /* FirebaseAppDistribution-Beta in Frameworks */,
+				45BCBC71279B412F00BDA7F3 /* FirebaseInstallations in Frameworks */,
+				45BCBC69279B412F00BDA7F3 /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				45BCBC99279B413000BDA7F3 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				45BCBC89279B413000BDA7F3 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				45BCBC87279B413000BDA7F3 /* FirebaseRemoteConfig in Frameworks */,
+				45BCBC7D279B413000BDA7F3 /* FirebaseStorageCombine-Community in Frameworks */,
+				45BCBC77279B412F00BDA7F3 /* FirebaseAnalytics in Frameworks */,
+				45BCBC67279B412F00BDA7F3 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				45BCBC75279B412F00BDA7F3 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				45BCBC6F279B412F00BDA7F3 /* FirebaseAuthCombine-Community in Frameworks */,
+				45BCBC93279B413000BDA7F3 /* FirebaseDynamicLinks in Frameworks */,
+				45BCBC97279B413000BDA7F3 /* FirebaseFunctions in Frameworks */,
+				45BCBC8F279B413000BDA7F3 /* FirebaseCrashlytics in Frameworks */,
+				45BCBC7F279B413000BDA7F3 /* FirebaseAppCheck in Frameworks */,
+				45BCBC85279B413000BDA7F3 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				45BCBC8D279B413000BDA7F3 /* FirebaseMessaging in Frameworks */,
+				45BCBC6D279B412F00BDA7F3 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +156,7 @@
 		13B07FAE1A68108700A75B9A /* NewEra */ = {
 			isa = PBXGroup;
 			children = (
+				45BCBC61279B07A500BDA7F3 /* GoogleService-Info (1).plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -122,43 +171,14 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				69A60A8CBD2C80C40B61B857 /* libPods-NewEra.a */,
+				FF62572C8BAF9BB78FC3B28E /* libPods-NewEra-NewEraTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		83CBB9F61A601CBA00E9B192 = {
-			isa = PBXGroup;
-			children = (
-				13B07FAE1A68108700A75B9A /* NewEra */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* NewEraTests */,
-				83CBBA001A601CBA00E9B192 /* Products */,
-				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				5ACEEBA4CA9046BD989C976F /* Resources */,
-			);
-			indentWidth = 2;
-			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
-		};
-		83CBBA001A601CBA00E9B192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13B07F961A680F5B00A75B9A /* NewEra.app */,
-				00E356EE1AD99517003FC87E /* NewEraTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5ACEEBA4CA9046BD989C976F /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				D3E237E3689D4453BB41102A /* AntDesign.ttf */,
 				804520DFA4F44D20A34F592B /* Entypo.ttf */,
@@ -179,7 +199,49 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* NewEra */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* NewEraTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				5ACEEBA4CA9046BD989C976F /* Resources */,
+				FB1D5A545463587119807957 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* NewEra.app */,
+				00E356EE1AD99517003FC87E /* NewEraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1D5A545463587119807957 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A4585480C20E1AD8E3C591 /* Pods-NewEra.debug.xcconfig */,
+				CB9CC77FA99DBA06958F01B6 /* Pods-NewEra.release.xcconfig */,
+				B29C0924EAC62E0C12062B2F /* Pods-NewEra-NewEraTests.debug.xcconfig */,
+				07CF257D96CD4CFB50D95D1B /* Pods-NewEra-NewEraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -188,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NewEraTests" */;
 			buildPhases = (
+				6FAAC53C6C43A0427C30B50D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				17508F6DA206B930877DBC3F /* [CP] Embed Pods Frameworks */,
+				CC616266EF2C34892AAEC99D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,17 +271,50 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NewEra" */;
 			buildPhases = (
+				84CAEE77067CD22DBE3256D2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F0FAFAB8986E14CA106CFBB8 /* [CP] Embed Pods Frameworks */,
+				865E5922AFE7CE26C3A9153E /* [CP] Copy Pods Resources */,
+				56EAFA38F8CEE543E9E6A5F1 /* [CP-User] [RNFB] Core Configuration */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NewEra;
+			packageProductDependencies = (
+				45BCBC64279B412F00BDA7F3 /* FirebaseAppDistribution-Beta */,
+				45BCBC66279B412F00BDA7F3 /* FirebaseInAppMessaging-Beta */,
+				45BCBC68279B412F00BDA7F3 /* FirebaseAnalyticsSwift-Beta */,
+				45BCBC6A279B412F00BDA7F3 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				45BCBC6C279B412F00BDA7F3 /* FirebaseFirestore */,
+				45BCBC6E279B412F00BDA7F3 /* FirebaseAuthCombine-Community */,
+				45BCBC70279B412F00BDA7F3 /* FirebaseInstallations */,
+				45BCBC72279B412F00BDA7F3 /* FirebaseFunctionsCombine-Community */,
+				45BCBC74279B412F00BDA7F3 /* FirebaseFirestoreSwift-Beta */,
+				45BCBC76279B412F00BDA7F3 /* FirebaseAnalytics */,
+				45BCBC78279B412F00BDA7F3 /* FirebasePerformance */,
+				45BCBC7A279B412F00BDA7F3 /* FirebaseDatabase */,
+				45BCBC7C279B413000BDA7F3 /* FirebaseStorageCombine-Community */,
+				45BCBC7E279B413000BDA7F3 /* FirebaseAppCheck */,
+				45BCBC80279B413000BDA7F3 /* FirebaseStorageSwift-Beta */,
+				45BCBC82279B413000BDA7F3 /* FirebaseAuth */,
+				45BCBC84279B413000BDA7F3 /* FirebaseInAppMessagingSwift-Beta */,
+				45BCBC86279B413000BDA7F3 /* FirebaseRemoteConfig */,
+				45BCBC88279B413000BDA7F3 /* FirebaseDatabaseSwift-Beta */,
+				45BCBC8A279B413000BDA7F3 /* FirebaseMLModelDownloader */,
+				45BCBC8C279B413000BDA7F3 /* FirebaseMessaging */,
+				45BCBC8E279B413000BDA7F3 /* FirebaseCrashlytics */,
+				45BCBC90279B413000BDA7F3 /* FirebaseStorage */,
+				45BCBC92279B413000BDA7F3 /* FirebaseDynamicLinks */,
+				45BCBC94279B413000BDA7F3 /* FirebaseFunctionsSwift-Beta */,
+				45BCBC96279B413000BDA7F3 /* FirebaseFunctions */,
+				45BCBC98279B413000BDA7F3 /* FirebaseFirestoreCombine-Community */,
+			);
 			productName = NewEra;
 			productReference = 13B07F961A680F5B00A75B9A /* NewEra.app */;
 			productType = "com.apple.product-type.application";
@@ -247,6 +345,9 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -269,24 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				73777257458547AC8CA28725 /* AntDesign.ttf in Resources */,
-				87487500CCB5473CAA459625 /* Entypo.ttf in Resources */,
-				F4234C87DCE8477A8D9E15B1 /* EvilIcons.ttf in Resources */,
-				CEE4C542DE4E484E8C417EA3 /* Feather.ttf in Resources */,
-				255F85717DDF4626A8FBDEEC /* FontAwesome.ttf in Resources */,
-				A4AD255F3352483B9BF370F6 /* FontAwesome5_Brands.ttf in Resources */,
-				636DEEA8E0394AEDA902DF72 /* FontAwesome5_Regular.ttf in Resources */,
-				1ADFBA608A8948BCAA4A866D /* FontAwesome5_Solid.ttf in Resources */,
-				A1840AB867004463A2FFA513 /* Fontisto.ttf in Resources */,
-				A620370B29C14E34A63C1B0D /* Foundation.ttf in Resources */,
-				FA83DF6E7ABE4B1C954F59BC /* Ionicons.ttf in Resources */,
-				510288C6F14F469BBC3091D5 /* MaterialCommunityIcons.ttf in Resources */,
-				C7F88865CC9F475490A8B00D /* MaterialIcons.ttf in Resources */,
-				14C381EAC51D44BAB889C297 /* Octicons.ttf in Resources */,
-				C6BB81A1C62343C9B15833B4 /* SimpleLineIcons.ttf in Resources */,
-				E7B375FC63874882A72A11D3 /* Zocial.ttf in Resources */,
+				45BCBC62279B07A500BDA7F3 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +390,131 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		17508F6DA206B930877DBC3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewEra-NewEraTests/Pods-NewEra-NewEraTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewEra-NewEraTests/Pods-NewEra-NewEraTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewEra-NewEraTests/Pods-NewEra-NewEraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56EAFA38F8CEE543E9E6A5F1 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		6FAAC53C6C43A0427C30B50D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewEra-NewEraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84CAEE77067CD22DBE3256D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewEra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865E5922AFE7CE26C3A9153E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewEra/Pods-NewEra-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewEra/Pods-NewEra-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewEra/Pods-NewEra-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC616266EF2C34892AAEC99D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewEra-NewEraTests/Pods-NewEra-NewEraTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewEra-NewEraTests/Pods-NewEra-NewEraTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewEra-NewEraTests/Pods-NewEra-NewEraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0FAFAB8986E14CA106CFBB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewEra/Pods-NewEra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewEra/Pods-NewEra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewEra/Pods-NewEra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -359,6 +568,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29C0924EAC62E0C12062B2F /* Pods-NewEra-NewEraTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -385,6 +595,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CF257D96CD4CFB50D95D1B /* Pods-NewEra-NewEraTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -408,6 +619,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A4585480C20E1AD8E3C591 /* Pods-NewEra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -433,6 +645,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9CC77FA99DBA06958F01B6 /* Pods-NewEra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -487,6 +700,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -552,6 +766,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -608,6 +823,155 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45BCBC64279B412F00BDA7F3 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		45BCBC66279B412F00BDA7F3 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		45BCBC68279B412F00BDA7F3 /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		45BCBC6A279B412F00BDA7F3 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		45BCBC6C279B412F00BDA7F3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		45BCBC6E279B412F00BDA7F3 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		45BCBC70279B412F00BDA7F3 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		45BCBC72279B412F00BDA7F3 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		45BCBC74279B412F00BDA7F3 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		45BCBC76279B412F00BDA7F3 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		45BCBC78279B412F00BDA7F3 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		45BCBC7A279B412F00BDA7F3 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		45BCBC7C279B413000BDA7F3 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		45BCBC7E279B413000BDA7F3 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		45BCBC80279B413000BDA7F3 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+		45BCBC82279B413000BDA7F3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		45BCBC84279B413000BDA7F3 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		45BCBC86279B413000BDA7F3 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		45BCBC88279B413000BDA7F3 /* FirebaseDatabaseSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
+		};
+		45BCBC8A279B413000BDA7F3 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		45BCBC8C279B413000BDA7F3 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		45BCBC8E279B413000BDA7F3 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		45BCBC90279B413000BDA7F3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		45BCBC92279B413000BDA7F3 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		45BCBC94279B413000BDA7F3 /* FirebaseFunctionsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsSwift-Beta";
+		};
+		45BCBC96279B413000BDA7F3 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		45BCBC98279B413000BDA7F3 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45BCBC63279B412F00BDA7F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }
